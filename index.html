@@ -1,0 +1,610 @@
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#18343a"><title>Mind Through Time | USCP PETA</title>
+<style>
+:root{--ink:#18343a;--muted:#5b6c6e;--paper:#f4efe4;--accent:#b87942;--panel:#fffaf1}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}button,input{font:inherit}button{cursor:pointer}.wrap{max-width:1120px;margin:auto;padding:0 22px}.top{display:flex;justify-content:space-between;align-items:center;padding:18px 0}.brand{font-weight:900;letter-spacing:.13em;font-size:.78rem}.brand i{display:inline-grid;place-items:center;background:var(--ink);color:white;border-radius:50%;width:34px;height:34px;font-style:normal;margin-right:8px}.top a{color:inherit;text-decoration:none}.top button,.navbtn,.action{border:1px solid #18343a35;background:#ffffff80;border-radius:30px;padding:10px 15px;color:var(--ink);font-weight:750}.hero{min-height:60vh;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:30px}.eyebrow{font-size:.7rem;letter-spacing:.2em;font-weight:900;color:var(--accent)}h1{font:clamp(3.5rem,9vw,7rem)/.88 Georgia,serif;letter-spacing:-.06em;margin:20px 0}h1 em{color:#b87942;font-weight:400}.intro{max-width:520px;color:var(--muted);line-height:1.8}.portal{min-height:420px;display:grid;place-items:center;position:relative}.orb{width:min(70vw,340px);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,#f7dcae 0 37%,#e9bd83 38% 58%,#e9bd8355 59% 70%,transparent 71%);position:absolute}.orb:after{content:"";position:absolute;inset:-35px;border:1px dashed #b8794280;border-radius:50%}.center{z-index:1;text-align:center;font:italic 2.4rem Georgia,serif}.center small{display:block;font:800 .65rem system-ui;letter-spacing:.18em;color:#85552f}.orbit{position:absolute;inset:0}.orbit button{position:absolute;width:145px;border:0;border-radius:18px;padding:15px;text-align:left;box-shadow:0 12px 30px #18343a20;color:var(--ink)}.orbit b{display:block;font:italic 1.7rem Georgia,serif}.orbit small{font-size:.62rem;letter-spacing:.12em;font-weight:900}.orbit .past{top:16%;left:0;background:#f0ddc2;transform:rotate(-6deg)}.orbit .present{top:15%;right:0;background:#d9ebe4;transform:rotate(6deg)}.orbit .future{bottom:3%;left:calc(50% - 72px);background:#e3def4}.section{padding:45px 0}.section h2{font:clamp(2.2rem,5vw,3.8rem)/1 Georgia,serif;margin:10px 0}.sub{color:var(--muted);line-height:1.7;max-width:620px}.tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:24px 0}.tabs button{border:1px solid #18343a28;background:#fff9;border-radius:16px;text-align:left;padding:15px;color:var(--ink)}.tabs button[aria-selected=true]{background:var(--active);border-color:var(--active);box-shadow:0 8px 22px #18343a18}.tabs small{display:block;font-size:.65rem;letter-spacing:.13em;font-weight:900}.tabs b{font:italic 1.6rem Georgia,serif}.panel{border-radius:26px;padding:clamp(20px,4vw,40px);background:var(--theme);box-shadow:0 16px 45px #18343a16;position:relative;overflow:hidden}.panel:after{content:attr(data-mark);position:absolute;right:-12px;top:-55px;font:italic clamp(8rem,19vw,15rem) Georgia,serif;color:#ffffff50;pointer-events:none}.panelhead,.grid,.activities,.controls{position:relative;z-index:1}.panelhead{display:flex;justify-content:space-between;gap:15px}.kicker{font-size:.68rem;letter-spacing:.18em;font-weight:900;color:var(--tone)}.panel h2{font:clamp(3rem,6vw,4.8rem)/.95 Georgia,serif;margin:8px 0}.desc{max-width:720px;color:#526368;line-height:1.7}.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:25px}.card{background:#ffffffad;border:1px solid #fff9;border-radius:18px;padding:20px}.card h3{font:italic 1.5rem Georgia,serif;margin:0 0 10px}.card p,.card li{color:#526368;line-height:1.65;font-size:.91rem}.card ul,.card ol{padding-left:20px}.timeline{display:grid;gap:9px}.time{display:grid;grid-template-columns:90px 1fr;gap:12px;border-top:1px solid #18343a20;padding-top:10px}.time b{font-size:.75rem;color:var(--tone)}.time span{font-size:.88rem;line-height:1.55;color:#526368}.accordion button{width:100%;display:flex;justify-content:space-between;border:1px solid #18343a20;background:#fff9;border-radius:12px;padding:12px;margin-top:8px;text-align:left;font-weight:800;color:var(--ink)}.answer{display:none;padding:10px 12px;color:#526368;line-height:1.6;font-size:.9rem}.answer.open{display:block}.activities{margin-top:24px}.activities>h3{font:italic 1.8rem Georgia,serif;margin:0 0 12px}.activity-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.activity{background:#ffffffb8;border:1px solid #fff;border-radius:18px;padding:17px;min-width:0}.activity .tag{font-size:.62rem;letter-spacing:.15em;font-weight:900;color:var(--tone)}.activity h4{font:italic 1.3rem Georgia,serif;margin:6px 0}.activity p{font-size:.86rem;line-height:1.55;color:#526368}.activity input{width:100%;padding:11px 12px;border:1px solid #18343a38;border-radius:10px;background:#fff;color:var(--ink);margin:6px 0}.action{background:var(--tone);color:white;border:0;padding:10px 13px;border-radius:10px;width:100%;margin-top:5px}.feedback{font-size:.8rem;font-weight:750;min-height:22px;margin-top:8px;color:var(--tone)}.reveal{display:none;background:#fff9;border-radius:10px;padding:10px;margin-top:9px;color:#526368;font-size:.86rem;line-height:1.55}.reveal.show{display:block}.controls{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:20px}.controls button:disabled{opacity:.35}.hint{font-size:.72rem;color:#647275;text-align:center}.compare{background:#fffaf2;border-radius:24px;padding:25px;margin-top:30px;overflow:auto}table{border-collapse:collapse;width:100%;min-width:600px}td,th{text-align:left;padding:13px;border-bottom:1px solid #18343a20;font-size:.85rem;line-height:1.5}th{font-size:.67rem;letter-spacing:.12em;color:#a66c39}.sources{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:20px}.source{border:1px solid #18343a25;background:#fff9;border-radius:14px;padding:15px;text-decoration:none;color:var(--ink)}.source b{display:block;font:italic 1.2rem Georgia,serif}.source small{display:block;color:var(--muted);line-height:1.5;margin-top:5px}.note{font-size:.78rem;line-height:1.6;color:var(--muted);margin-top:20px}.footer{border-top:1px solid #18343a25;padding:24px 0 35px;margin-top:45px;color:var(--muted);font-size:.78rem;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+body.past{--theme:#efe0c7;--tone:#9a6035;--active:#f1dfc5}body.present{--theme:#dcebe5;--tone:#277768;--active:#d9ebe4}body.future{--theme:#e5e0f4;--tone:#6554a0;--active:#e3def4}
+@media(max-width:760px){.hero{grid-template-columns:1fr;min-height:auto;padding:55px 0 20px;text-align:center}.intro{margin:auto}.portal{min-height:340px}.grid{grid-template-columns:1fr}.activity-grid{grid-template-columns:1fr}.sources{grid-template-columns:1fr 1fr}.orbit button{width:125px}.orbit .past{left:-2%}.orbit .present{right:-2%}}
+@media(max-width:440px){.wrap{padding:0 15px}.tabs{gap:6px}.tabs button{padding:11px 8px}.tabs b{font-size:1.3rem}.tabs small{font-size:.55rem}.sources{gap:7px}.source{padding:12px}.time{grid-template-columns:72px 1fr}.hint{max-width:105px;line-height:1.35}}
+
+/* Cross-device readability and chapter navigation */
+.hero{min-height:60vh;gap:clamp(24px,4vw,56px)}
+.portal{min-height:380px}
+.controls{justify-content:center}
+.back-to-chapters{min-width:190px;background:#fffaf1}
+@media(min-width:761px){
+  body{font-size:17px}
+  .intro,.sub,.desc{font-size:1.08rem}
+  .card p,.card li,.time span,.answer{font-size:1rem}
+  .activity p{font-size:.98rem}
+  .hero{min-height:58vh;padding:28px 0}
+  .portal{min-height:390px}
+  .section{padding:56px 0}
+}
+@media(max-width:760px){
+  .hero{min-height:0;padding:34px 0 8px}
+  .portal{min-height:440px;margin-top:8px;overflow:visible}
+  .orb{width:min(66vw,260px)}
+  .orb:after{inset:-18px}
+  .center{font-size:1.9rem;z-index:2;line-height:1.15;text-shadow:0 1px 0 #fff8}
+  .center small{font-size:.58rem;letter-spacing:.08em;line-height:1.5;white-space:normal;max-width:180px;margin:0 auto 8px}
+  .orbit{z-index:3;pointer-events:none}
+  .orbit button{pointer-events:auto;width:clamp(112px,34vw,138px);padding:12px;background-clip:padding-box;box-shadow:0 5px 18px #18343a30;transform:none}
+  .orbit .past{top:0;left:0}
+  .orbit .present{top:0;right:0}
+  .orbit .future{bottom:0;left:50%;transform:translateX(-50%)}
+  .orbit b{font-size:1.35rem}
+  .orbit small{font-size:.58rem;letter-spacing:.08em}
+  .section{padding:34px 0}
+}
+@media(max-width:440px){
+  .portal{min-height:410px}
+  .center{font-size:1.65rem}
+  .center small{font-size:.52rem;max-width:150px}
+  .orbit button{width:112px;padding:10px}
+  .orbit b{font-size:1.25rem}
+}
+\n</style></head>
+<body class="present"><div class="wrap">
+<header class="top"><a class="brand" href="#home"><i>✳</i>MIND THROUGH TIME</a><a class="navbtn" href="#references">Research sources ↗</a></header>
+<section class="hero" id="home"><div><div class="eyebrow">USCP · PERFORMANCE TASK</div><h1>Mind<br>through <em>time.</em></h1><p class="intro">A journey through how people have understood mental health, what we know today, and how care may evolve tomorrow. Three eras, one shared human story—presented with a Filipino-inspired visual touch.</p><p class="intro">Choose a chapter, explore its research, and try its own , trivia, and fun fact. Researched by(Ciel J. Onup) </p></div>
+<div class="portal"><div class="orb"></div><div class="center"><small>ONE STORY · THREE ERAS</small>Our minds<br>matter.</div><div class="orbit"><button class="past" data-open="past"><small>01 · ROOTS</small><b>Past</b>Explore history ↗</button><button class="present" data-open="present"><small>02 · NOW</small><b>Present</b>Explore today ↗</button><button class="future" data-open="future"><small>03 · HORIZON</small><b>Future</b>Explore tomorrow ↗</button></div></div></section>
+<section class="section" id="explore"><div class="eyebrow">Interactive chapters</div><h2>Choose a chapter.</h2><p class="sub">Swipe left to travel to the Past. Swipe right to move toward the Future. Choose any era directly using the Past, Present, and Future buttons below.</p>
+<div class="tabs" role="tablist"><button data-tab="past" role="tab"><small>01 · ROOTS</small><b>Past</b></button><button data-tab="present" role="tab"><small>02 · NOW</small><b>Present</b></button><button data-tab="future" role="tab"><small>03 · HORIZON</small><b>Future</b></button></div>
+<article class="panel" id="panel" data-mark="NOW"><div class="panelhead"><div><div class="kicker" id="kicker"></div><h2 id="title"></h2><p class="desc" id="desc"></p></div></div><div class="grid" id="research"></div>
+<section class="activities"><h3>✦ Chapter activities</h3><div class="activity-grid">
+<div class="activity"><div class="tag">TYPE YOUR ANSWER</div><h4>Puzzle</h4><p id="puzzleQ"></p><input id="puzzleInput" type="text" placeholder="Type your answer…" autocomplete="off"><button class="action" id="puzzleCheck">Check puzzle</button><div class="feedback" id="puzzleFeedback" aria-live="polite"></div></div>
+<div class="activity"><div class="tag">TYPE YOUR ANSWER</div><h4>Trivia</h4><p id="triviaQ"></p><input id="triviaInput" type="text" placeholder="Type your answer…" autocomplete="off"><button class="action" id="triviaCheck">Check trivia</button><div class="feedback" id="triviaFeedback" aria-live="polite"></div></div>
+<div class="activity"><div class="tag">DISCOVER SOMETHING</div><h4>Fun fact</h4><p id="factTease"></p><button class="action" id="factReveal">Reveal fun fact</button><div class="reveal" id="factText"></div></div>
+</div></section>
+<div class="controls"><button class="navbtn back-to-chapters" id="backToChapters" type="button">↑ Back to chapters</button></div></article></section>
+<section class="section"><div class="eyebrow">Comparative analysis</div><h2>Three eras. One evolving view.</h2><div class="compare"><table><thead><tr><th>Category</th><th>Past</th><th>Present</th><th>Future direction</th></tr></thead><tbody><tr><td>Understanding</td><td>Spiritual and traditional explanations.</td><td>Scientific, psychological, biological, and social perspectives.</td><td>More interdisciplinary research.</td></tr><tr><td>Treatment</td><td>Traditional practices and institutional care.</td><td>Psychotherapy, medication, and community services.</td><td>Expanded digital and integrated care.</td></tr><tr><td>Awareness</td><td>Limited public understanding in many societies.</td><td>Increasing awareness, with stigma still present.</td><td>Greater mental health literacy.</td></tr><tr><td>Accessibility</td><td>Limited medical resources.</td><td>Unequal access to services.</td><td>Potentially wider access through technology.</td></tr><tr><td>Social perception</td><td>Often misunderstood.</td><td>Gradually becoming more accepted.</td><td>Greater inclusion and reduced stigma as goals.</td></tr></tbody></table></div></section>
+<section class="section" id="references"><div class="eyebrow">Bibliography · Further reading</div><h2>Research desk.</h2><p class="sub">Reliable organizations and official references for further research.</p><div class="sources">
+<a class="source" href="https://www.who.int/news-room/fact-sheets/detail/mental-disorders" target="_blank" rel="noopener"><b>WHO</b><small>Global mental disorder information and public health data.</small></a>
+<a class="source" href="https://www.nimh.nih.gov/health" target="_blank" rel="noopener"><b>NIMH</b><small>Research-based mental health information.</small></a>
+<a class="source" href="https://www.unicef.org/adolescentmentalhealthhub/" target="_blank" rel="noopener"><b>UNICEF</b><small>Children, adolescents, and mental well-being.</small></a>
+<a class="source" href="https://issuances-library.senate.gov.ph/legislative-issuance/republic-act-no-11036" target="_blank" rel="noopener"><b>Philippine Government</b><small>Republic Act No. 11036, Mental Health Act of 2018.</small></a>
+</div><p class="note"><b>Research accuracy note:</b> The supplied research cites approximately 1.2 billion people living with mental disorders in 2023. Verify the exact figure and reference year against the latest WHO publication before presenting it as a current statistic. Mental health conditions require qualified clinical assessment; this website is educational and is not a diagnostic tool. Technology should complement, not replace, qualified professionals.</p></section>
+<footer class="footer"><b>MIND THROUGH TIME · USCP PETA</b><span>Past · Present · Future</span><span>Learning with empathy and awareness.</span></footer></div>
+<script>
+const data={
+past:{title:"Past",kicker:"01 / HISTORICAL RECORDS",mark:"THEN",desc:"Across history, explanations of psychological distress changed with culture, religion, medicine, and scientific discovery. Beliefs and practices varied across societies.",html:`<div class="card"><h3>A timeline of changing ideas</h3><div class="timeline"><div class="time"><b>ANCIENT</b><span>Spiritual explanations were common, while some physicians—including Hippocrates—proposed natural, bodily causes.</span></div><div class="time"><b>MIDDLE AGES</b><span>Religious and supernatural interpretations persisted in many communities. Misunderstanding and exclusion were common.</span></div><div class="time"><b>18TH C.</b><span>Psychiatric institutions became more established, alongside attempts to organize care.</span></div><div class="time"><b>19TH C.</b><span>Reformers advocated more humane treatment and better institutional conditions.</span></div><div class="time"><b>20TH C.</b><span>Psychotherapy, psychiatric medication, research, diagnostic classifications, and patient-rights movements developed.</span></div><div class="time"><b>21ST C.</b><span>Awareness, digital healthcare, and community support became increasingly visible.</span></div></div></div><div class="card"><h3>Historical developments</h3><div class="accordion"><button>Ancient medical ideas <span>＋</span></button><div class="answer">Hippocrates proposed that some mental conditions could have natural causes rather than being explained only by supernatural forces.</div><button>Middle Ages and misunderstanding <span>＋</span></button><div class="answer">In some communities, unusual behaviour was interpreted through religious or supernatural beliefs. Access to medical care was limited and social exclusion occurred.</div><button>Reform and modern psychiatry <span>＋</span></button><div class="answer">The 18th to 20th centuries brought institutional developments, reform movements, psychotherapy, psychiatric medicines, research, and greater recognition of patients’ rights.</div></div></div>`,puzzle:"I am an ancient Greek physician associated with the idea that mental conditions can have natural causes. Who am I?",puzzleA:["hippocrates","hippocrates of cos"],trivia:"Which century saw major growth in psychotherapy and psychiatric medication?",triviaA:["20th","20th century","twentieth century"],tease:"An early medical explanation challenged the idea that every mental condition had a supernatural cause.",fact:"Hippocrates is often associated with early naturalistic explanations of illness, including mental conditions. His ideas were an important historical milestone, though they were not the same as modern psychiatry."},
+present:{title:"Present",kicker:"02 / CURRENT RESEARCH",mark:"NOW",desc:"Modern mental healthcare recognizes that well-being is influenced by biological, psychological, social, environmental, and digital factors.",html:`<div class="card"><h3>Conditions in modern healthcare</h3><p>These examples require proper clinical assessment. Ordinary emotional experiences do not automatically indicate a psychiatric disorder.</p><div class="accordion"><button>Depression <span>＋</span></button><div class="answer">May involve persistent sadness or reduced interest, alongside other changes that affect everyday functioning.</div><button>Anxiety disorders <span>＋</span></button><div class="answer">Involve excessive fear or worry that can interfere with daily activities.</div><button>Bipolar disorder <span>＋</span></button><div class="answer">Involves episodes of depression and mania or hypomania; it is more than ordinary mood changes.</div><button>PTSD and OCD <span>＋</span></button><div class="answer">PTSD may develop after traumatic experiences. OCD involves recurring unwanted thoughts and/or repetitive behaviours.</div><button>Schizophrenia and ADHD <span>＋</span></button><div class="answer">Schizophrenia can affect perception, thinking, emotions, and behaviour. ADHD is a neurodevelopmental condition involving persistent inattention and/or hyperactivity-impulsivity.</div></div></div><div class="card"><h3>Factors and current challenges</h3><ul><li><b>Biological:</b> genetics, brain development, physical health.</li><li><b>Psychological:</b> stress, emotional regulation, coping abilities.</li><li><b>Social:</b> family, peer pressure, discrimination, isolation.</li><li><b>Environmental:</b> poverty, violence, educational pressure, living conditions.</li><li><b>Digital:</b> cyberbullying, harassment, comparison, online stress.</li></ul><p>Major challenges include stigma, unequal healthcare access, academic pressure, social isolation, digital influence, and gaps in mental health literacy.</p></div><div class="card"><h3>Global snapshot</h3><p><b style="font:3rem Georgia;color:#277768">1.2B</b><br>Approximate number in the supplied research of people living with mental disorders in 2023. Check the latest WHO fact sheet for the exact current estimate.</p><a href="https://www.who.int/news-room/fact-sheets/detail/mental-disorders" target="_blank" rel="noopener">WHO: Mental disorders ↗</a></div><div class="card"><h3>Mental health in the Philippines</h3><p><b>Republic Act No. 11036</b>, the Philippine Mental Health Act of 2018, promotes mental health, improves access to services, protects the rights of people using mental health services, and supports integration into the healthcare system.</p><p>Filipino students may face academic expectations, financial difficulties, family pressures, peer relationships, bullying, social media influence, and uncertainty about the future. Schools can help through supportive environments, education, and guidance services.</p><a href="https://issuances-library.senate.gov.ph/legislative-issuance/republic-act-no-11036" target="_blank" rel="noopener">Read RA 11036 ↗</a></div>`,puzzle:"Which Philippine law is known as the Mental Health Act of 2018? Enter its Republic Act number.",puzzleA:["11036","ra 11036","republic act 11036"],trivia:"Which organization publishes the Mental Disorders fact sheet used in this research?",triviaA:["who","world health organization"],tease:"Mental health is shaped by more than biology alone.",fact:"Mental health is influenced by interconnected biological, psychological, social, and environmental factors. Digital experiences can also affect well-being."},
+future:{title:"Future",kicker:"03 / EMERGING DEVELOPMENTS",mark:"NEXT",desc:"Future mental healthcare may focus on accessibility, technology, early support, and stronger public awareness. These are possibilities—not guaranteed outcomes.",html:`<div class="card"><h3>What may be next?</h3><div class="timeline"><div class="time"><b>AI</b><span>May assist with mental health education and selected healthcare tasks, with appropriate human oversight.</span></div><div class="time"><b>TELEHEALTH</b><span>Remote consultations may reduce travel barriers and expand access.</span></div><div class="time"><b>DIGITAL TOOLS</b><span>Platforms may provide educational materials and pathways to support services.</span></div><div class="time"><b>SCHOOLS</b><span>School-based programs may improve mental health literacy.</span></div><div class="time"><b>COMMUNITY</b><span>Stronger local support systems may help people reach services.</span></div><div class="time"><b>EARLY CARE</b><span>Earlier recognition may connect people with appropriate care sooner.</span></div></div></div><div class="card"><h3>Future research questions</h3><ol><li>How effective is digital mental healthcare?</li><li>How does social media relate to psychological well-being?</li><li>How can developing countries improve access to services?</li><li>Which school programs improve mental health literacy?</li><li>What makes early intervention effective?</li><li>How do family and community support systems help?</li></ol></div><div class="card"><h3>Promise with responsibility</h3><p>Technology raises important questions about privacy, accuracy, fairness, accessibility, and human connection. It should complement—not replace—qualified mental health professionals.</p></div><div class="card"><h3>A future worth building</h3><p>Progress also depends on affordable and culturally appropriate services, dignity and human rights, reliable education, supportive schools and communities, and research that includes diverse populations.</p></div>`,puzzle:"I let a person consult a healthcare professional remotely using communication technology. What am I?",puzzleA:["telehealth","telemedicine","tele health"],trivia:"Should artificial intelligence replace qualified mental health professionals?",triviaA:["no","no it should not","no it should not replace them"],tease:"A future-focused approach combines innovation with human care.",fact:"Telehealth can help people consult healthcare providers remotely, potentially reducing travel and geographic barriers. It is not suitable for every situation, and access to reliable services still matters."}
+};
+let current="present";
+function norm(s){return s.toLowerCase().trim().replace(/[.,!?]/g,"").replace(/\s+/g," ")}
+function render(key){current=key;const d=data[key];document.body.className=key;document.getElementById("panel").dataset.mark=d.mark;document.getElementById("kicker").textContent=d.kicker;document.getElementById("title").textContent=d.title;document.getElementById("desc").textContent=d.desc;document.getElementById("research").innerHTML=d.html;document.getElementById("puzzleQ").textContent=d.puzzle;document.getElementById("triviaQ").textContent=d.trivia;document.getElementById("factTease").textContent=d.tease;document.getElementById("factText").textContent=d.fact;document.getElementById("puzzleInput").value="";document.getElementById("triviaInput").value="";document.getElementById("puzzleFeedback").textContent="";document.getElementById("triviaFeedback").textContent="";document.getElementById("factText").classList.remove("show");document.getElementById("factReveal").textContent="Reveal fun fact";document.querySelectorAll("[data-tab]").forEach(b=>b.setAttribute("aria-selected",String(b.dataset.tab===key)));document.querySelectorAll(".accordion button").forEach(b=>b.addEventListener("click",()=>{const a=b.nextElementSibling;a.classList.toggle("open");b.querySelector("span").textContent=a.classList.contains("open")?"−":"＋"}));}
+function check(which){const d=data[current],input=document.getElementById(which+"Input"),fb=document.getElementById(which+"Feedback"),answers=which==="puzzle"?d.puzzleA:d.triviaA;if(!norm(input.value)){fb.textContent="Type an answer first.";return}if(answers.includes(norm(input.value)))fb.textContent="Correct! Well done.";else fb.textContent="Not quite—try again. Re-read the chapter clues."}
+document.querySelectorAll("[data-tab]").forEach(b=>b.addEventListener("click",()=>render(b.dataset.tab)));document.querySelectorAll("[data-open]").forEach(b=>b.addEventListener("click",()=>{render(b.dataset.open);document.getElementById("explore").scrollIntoView({behavior:"smooth"})}));document.getElementById("backToChapters").onclick=()=>{document.querySelector(".tabs").scrollIntoView({behavior:"smooth",block:"center"});};document.getElementById("puzzleCheck").onclick=()=>check("puzzle");document.getElementById("triviaCheck").onclick=()=>check("trivia");document.getElementById("factReveal").onclick=()=>{const el=document.getElementById("factText");el.classList.toggle("show");document.getElementById("factReveal").textContent=el.classList.contains("show")?"Hide fun fact":"Reveal fun fact"};
+render("present");
+</script><style>
+/* =================================
+   MIND THROUGH TIME - PUZZLE SYSTEM
+================================= */
+
+.puzzle-suite {
+    --puzzle-accent: #b58a53;
+    margin: 40px auto;
+    padding: 24px;
+    max-width: 1100px;
+    border-radius: 22px;
+    background: #f8f3e9;
+    color: #30291f;
+    font-family: inherit;
+}
+
+.puzzle-suite * {
+    box-sizing: border-box;
+}
+
+.puzzle-suite h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.puzzle-intro {
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.puzzle-era {
+    margin: 28px 0;
+    padding: 22px;
+    border-radius: 18px;
+    background: white;
+    border: 2px solid var(--puzzle-accent);
+}
+
+.puzzle-era h3 {
+    color: var(--puzzle-accent);
+    font-size: 1.5rem;
+}
+
+.puzzle-stage {
+    margin-top: 25px;
+}
+
+.puzzle-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    width: min(100%, 360px);
+    aspect-ratio: 1;
+    margin: 18px auto;
+    padding: 6px;
+    background: var(--puzzle-accent);
+    border-radius: 12px;
+}
+
+.jigsaw-piece {
+    position: relative;
+    border: 2px solid white;
+    border-radius: 7px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    min-width: 0;
+    padding: 0;
+    touch-action: manipulation;
+    transition: transform .15s, outline .15s;
+}
+
+.jigsaw-piece.selected {
+    outline: 4px solid #ffb52e;
+    outline-offset: -4px;
+    transform: scale(.94);
+    z-index: 2;
+}
+
+.puzzle-button {
+    display: inline-block;
+    padding: 11px 17px;
+    margin: 5px;
+    border: none;
+    border-radius: 9px;
+    background: var(--puzzle-accent);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.puzzle-button:active {
+    transform: scale(.96);
+}
+
+.word-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7px;
+    margin: 20px auto;
+    max-width: 450px;
+}
+
+.letter-tile {
+    width: 43px;
+    height: 48px;
+    border: 2px solid var(--puzzle-accent);
+    border-radius: 9px;
+    background: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    touch-action: manipulation;
+}
+
+.letter-tile.selected {
+    background: var(--puzzle-accent);
+    color: white;
+}
+
+.puzzle-feedback {
+    min-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.puzzle-reward {
+    display: none;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    background: #e5f5e6;
+    border: 2px solid #4a9b62;
+    color: #205b34;
+    line-height: 1.6;
+}
+
+.puzzle-reward.unlocked {
+    display: block;
+    animation: rewardPop .4s ease;
+}
+
+@keyframes rewardPop {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.puzzle-divider {
+    border: none;
+    border-top: 1px dashed #aaa;
+    margin: 25px 0;
+}
+
+@media(max-width:600px) {
+    .puzzle-suite {
+        padding: 12px;
+    }
+
+    .puzzle-era {
+        padding: 13px;
+    }
+
+    .letter-tile {
+        width: 36px;
+        height: 43px;
+    }
+}
+</style>
+
+<script>
+(() => {
+"use strict";
+
+const puzzleData = {
+    past: {
+        title: "Past — Ancient Healing",
+        accent: "#a77b45",
+        picture: "🏛️",
+        subtitle: "Explore early ideas about mental health.",
+        words: [
+            {
+                word: "HIPPOCRATES",
+                hint: "Which ancient Greek physician is associated with natural explanations of illness?"
+            },
+            {
+                word: "HEALING",
+                hint: "What process helps a person recover from an illness?"
+            },
+            {
+                word: "HUMORS",
+                hint: "What ancient theory suggested that four bodily fluids influenced health and behavior?"
+            }
+        ],
+        fact: "Hippocrates helped challenge supernatural explanations of illness by proposing that health conditions could have natural causes."
+    },
+
+    present: {
+        title: "Present — Mental Health Awareness",
+        accent: "#378c79",
+        picture: "🌿",
+        subtitle: "Discover the importance of understanding mental health.",
+        words: [
+            {
+                word: "AWARENESS",
+                hint: "What helps people recognize mental-health concerns and reduce stigma?"
+            },
+            {
+                word: "SUPPORT",
+                hint: "What can friends, family, and communities provide to help someone facing difficulties?"
+            },
+            {
+                word: "STIGMA",
+                hint: "What is the negative judgment or unfair treatment associated with mental-health conditions?"
+            }
+        ],
+        fact: "Mental-health awareness helps people recognize challenges, reduce stigma, and understand when support may be needed."
+    },
+
+    future: {
+        title: "Future — Technology and Care",
+        accent: "#8262b9",
+        picture: "🤖",
+        subtitle: "Discover how technology may support future mental-health care.",
+        words: [
+            {
+                word: "TELEHEALTH",
+                hint: "What is remote healthcare delivered through digital communication?"
+            },
+            {
+                word: "ARTIFICIAL",
+                hint: "What word describes technology designed to imitate aspects of human intelligence?"
+            },
+            {
+                word: "INNOVATION",
+                hint: "What is the introduction of new ideas or methods to improve something?"
+            }
+        ],
+        fact: "Telehealth can make mental-health consultations more accessible, although privacy, affordability, and reliable internet remain important."
+    }
+};
+
+const root = document.createElement("section");
+root.className = "puzzle-suite";
+root.innerHTML = `
+    <h2>Interactive Puzzle Zone</h2>
+    <p class="puzzle-intro">
+        Explore each era through two separate challenges:
+        reconstruct the picture and solve three scrambled words.
+    </p>
+    <div id="puzzle-era-container"></div>
+`;
+
+const explore = document.querySelector("#explore");
+if (explore) {
+    explore.insertAdjacentElement("afterend", root);
+} else {
+    document.body.appendChild(root);
+}
+
+const container = root.querySelector("#puzzle-era-container");
+
+function createPicture(data) {
+    const svg = `
+    <svg xmlns="http://www.w3.org/2000/svg"
+         width="600" height="600" viewBox="0 0 600 600">
+        <defs>
+            <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="${data.accent}"/>
+                <stop offset="100%" stop-color="#f5e8cb"/>
+            </linearGradient>
+        </defs>
+        <rect width="600" height="600" fill="url(#bg)"/>
+        <circle cx="300" cy="270" r="180" fill="#ffffff" opacity=".25"/>
+        <text x="300" y="320" text-anchor="middle" font-size="190">${data.picture}</text>
+        <text x="300" y="520" text-anchor="middle"
+              font-size="34" font-weight="bold" fill="#ffffff">
+            MIND THROUGH TIME
+        </text>
+    </svg>`;
+    return "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg);
+}
+
+function shuffle(array) {
+    const result = [...array];
+    for (let i = result.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [result[i], result[j]] = [result[j], result[i]];
+    }
+    return result;
+}
+
+Object.entries(puzzleData).forEach(([era, data]) => {
+    const section = document.createElement("article");
+    section.className = "puzzle-era";
+    section.dataset.era = era;
+    section.style.setProperty("--puzzle-accent", data.accent);
+
+    section.innerHTML = `
+        <h3>${data.title}</h3>
+        <p>${data.subtitle}</p>
+
+        <div class="puzzle-stage">
+            <h4>1. Jigsaw Puzzle</h4>
+            <p>Reconstruct the picture by swapping the scattered pieces.</p>
+            <div class="puzzle-board"></div>
+            <div class="puzzle-feedback jigsaw-feedback" aria-live="polite">
+                Select two pieces to swap them.
+            </div>
+            <div style="text-align:center">
+                <button type="button" class="puzzle-button reset-jigsaw">
+                    Shuffle Again
+                </button>
+            </div>
+        </div>
+
+        <hr class="puzzle-divider">
+
+        <div class="puzzle-stage">
+            <h4>2. Scrambled Word Challenge</h4>
+            <p class="word-progress">Word 1 of 3</p>
+            <p class="word-clue"></p>
+            <p>Tap two letters to exchange their positions.</p>
+            <div class="word-board"></div>
+            <div class="puzzle-feedback word-feedback" aria-live="polite">
+                Arrange the letters correctly.
+            </div>
+            <div style="text-align:center">
+                <button type="button" class="puzzle-button reset-word">
+                    Restart Words
+                </button>
+                <button type="button" class="puzzle-button hint-word">
+                    Hint
+                </button>
+            </div>
+        </div>
+
+        <div class="puzzle-reward" style="
+            display:none;
+            margin-top:18px;
+            padding:16px;
+            background:#e5f5e6;
+            border:2px solid #4a9b62;
+            border-radius:12px;
+            color:#205b34;
+            line-height:1.6;">
+            <b>✦ Did you know?</b>
+            <p>${data.fact}</p>
+        </div>
+    `;
+
+    container.appendChild(section);
+    setupJigsaw(section, data);
+    setupWordPuzzle(section, data);
+});
+
+/* JIGSAW: independent completion and reset */
+function setupJigsaw(section, data) {
+    const board = section.querySelector(".puzzle-board");
+    const feedback = section.querySelector(".jigsaw-feedback");
+    const resetButton = section.querySelector(".reset-jigsaw");
+    const image = createPicture(data);
+
+    let pieces = [];
+    let selected = null;
+    let completed = false;
+
+    function render() {
+        board.innerHTML = "";
+
+        pieces.forEach((correctPosition, index) => {
+            const tile = document.createElement("button");
+            tile.type = "button";
+            tile.className = "jigsaw-piece";
+            tile.setAttribute("aria-label", "Jigsaw piece " + (index + 1));
+
+            const row = Math.floor(correctPosition / 3);
+            const col = correctPosition % 3;
+
+            tile.style.backgroundImage = `url("${image}")`;
+            tile.style.backgroundSize = "300% 300%";
+            tile.style.backgroundPosition = `${col * 50}% ${row * 50}%`;
+
+            if (selected === index) tile.classList.add("selected");
+
+            tile.addEventListener("click", () => {
+                if (completed) return;
+
+                if (selected === null) {
+                    selected = index;
+                } else {
+                    [pieces[selected], pieces[index]] =
+                        [pieces[index], pieces[selected]];
+                    selected = null;
+                    checkJigsaw();
+                }
+                render();
+            });
+
+            board.appendChild(tile);
+        });
+    }
+
+    function checkJigsaw() {
+        const solved = pieces.every((piece, index) => piece === index);
+        if (solved) {
+            completed = true;
+            feedback.textContent = "✓ Jigsaw completed!";
+        } else {
+            feedback.textContent = "Keep arranging the pieces!";
+        }
+    }
+
+    function reset() {
+        pieces = shuffle([0,1,2,3,4,5,6,7,8]);
+        if (pieces.every((value, index) => value === index)) pieces.reverse();
+        selected = null;
+        completed = false;
+        feedback.textContent = "Select two pieces to swap them.";
+        render();
+    }
+
+    resetButton.addEventListener("click", reset);
+    reset();
+}
+
+/* WORD PUZZLE: three words per era, independent of the jigsaw */
+function setupWordPuzzle(section, data) {
+    const board = section.querySelector(".word-board");
+    const feedback = section.querySelector(".word-feedback");
+    const clue = section.querySelector(".word-clue");
+    const progress = section.querySelector(".word-progress");
+    const resetButton = section.querySelector(".reset-word");
+    const hintButton = section.querySelector(".hint-word");
+    const fact = section.querySelector(".puzzle-reward");
+
+    let current = 0;
+    let letters = [];
+    let selected = null;
+    let completed = false;
+
+    function showWord() {
+        const puzzle = data.words[current];
+        letters = shuffle(puzzle.word.split(""));
+
+        if (letters.join("") === puzzle.word) letters.reverse();
+
+        selected = null;
+        completed = false;
+        progress.textContent = `Word ${current + 1} of ${data.words.length}`;
+        clue.textContent = puzzle.hint;
+        feedback.textContent = "Arrange the letters correctly.";
+        renderLetters();
+    }
+
+    function renderLetters() {
+        board.innerHTML = "";
+
+        letters.forEach((letter, index) => {
+            const tile = document.createElement("button");
+            tile.type = "button";
+            tile.className = "letter-tile";
+            tile.textContent = letter;
+            tile.setAttribute("aria-label", "Letter " + letter);
+
+            if (selected === index) tile.classList.add("selected");
+
+            tile.addEventListener("click", () => {
+                if (completed) return;
+
+                if (selected === null) {
+                    selected = index;
+                } else {
+                    [letters[selected], letters[index]] =
+                        [letters[index], letters[selected]];
+                    selected = null;
+                    checkWord();
+                }
+                renderLetters();
+            });
+
+            board.appendChild(tile);
+        });
+    }
+
+    function checkWord() {
+        const answer = data.words[current].word;
+
+        if (letters.join("") !== answer) {
+            feedback.textContent = "Not quite. Keep rearranging!";
+            return;
+        }
+
+        completed = true;
+        feedback.textContent = "✓ Correct word!";
+
+        if (current < data.words.length - 1) {
+            window.setTimeout(() => {
+                current++;
+                showWord();
+            }, 1000);
+        } else {
+            progress.textContent = "3 of 3 completed!";
+            feedback.textContent = "🎉 Excellent! You completed all three words!";
+            fact.style.display = "block";
+        }
+    }
+
+    resetButton.addEventListener("click", () => {
+        current = 0;
+        fact.style.display = "none";
+        showWord();
+    });
+
+    hintButton.addEventListener("click", () => {
+        const answer = data.words[current].word;
+        feedback.textContent =
+            `Hint: ${answer.length} letters. First letter: ${answer[0]}`;
+    });
+
+    showWord();
+}
+})();
+</script></body></html> 
